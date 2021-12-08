@@ -1,0 +1,9 @@
+{
+  "compilerOptions": {
+    "module": "commonjs", // 공통적인 모듈
+    "target": "ES2015", // 컴파일 후의 결과물
+    "sourceMap": true // soucrmap 처리 여부
+  },
+  "include": ["index.ts"],
+  "exclude": ["node_modules"]
+}
