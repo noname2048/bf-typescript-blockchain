@@ -1,6 +1,10 @@
 {
   "name": "bf-typescript-blockchain",
   "packageManager": "yarn@3.1.1",
+  "scripts": {
+    "start": "node build/index.js",
+    "prestart": "npx tsc"
+  },
   "dependencies": {
     "typescript": "^4.5.2"
   }
