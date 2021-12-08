@@ -1,0 +1,7 @@
+{
+  "name": "bf-typescript-blockchain",
+  "packageManager": "yarn@3.1.1",
+  "dependencies": {
+    "typescript": "^4.5.2"
+  }
+}
