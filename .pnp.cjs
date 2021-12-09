@@ -35,6 +35,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["crypto-js", "npm:4.1.1"],
             ["tsc-watch", "virtual:64bcb2e821c78130d0f4f778862b33620a1110a7e015d97f4ddf6791f3ad628cda36b3f0336ac230035f00db02f206e980f71a9c115e4c39d50b154e20db2283#npm:4.5.0"],
             ["typescript", "patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=493e53"]
           ],
@@ -55,6 +56,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["bf-typescript-blockchain", "workspace:."],
+            ["crypto-js", "npm:4.1.1"],
             ["tsc-watch", "virtual:64bcb2e821c78130d0f4f778862b33620a1110a7e015d97f4ddf6791f3ad628cda36b3f0336ac230035f00db02f206e980f71a9c115e4c39d50b154e20db2283#npm:4.5.0"],
             ["typescript", "patch:typescript@npm%3A4.5.2#~builtin<compat/typescript>::version=4.5.2&hash=493e53"]
           ],
@@ -69,6 +71,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["path-key", "npm:3.1.1"],
             ["shebang-command", "npm:2.0.0"],
             ["which", "npm:2.0.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["crypto-js", [
+        ["npm:4.1.1", {
+          "packageLocation": "./.yarn/cache/crypto-js-npm-4.1.1-38a3b8c19d-b3747c12ee.zip/node_modules/crypto-js/",
+          "packageDependencies": [
+            ["crypto-js", "npm:4.1.1"]
           ],
           "linkType": "HARD",
         }]
