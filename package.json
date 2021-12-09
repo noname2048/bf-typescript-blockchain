@@ -2,10 +2,14 @@
   "name": "bf-typescript-blockchain",
   "packageManager": "yarn@3.1.1",
   "scripts": {
+    "autostart": "tsc-watch --onSuccess \"node dist/index.js\"",
     "start": "node build/index.js",
     "prestart": "npx tsc"
   },
   "dependencies": {
     "typescript": "^4.5.2"
+  },
+  "devDependencies": {
+    "tsc-watch": "^4.5.0"
   }
 }
