@@ -1,13 +1,19 @@
-const name = "Nicolas",
-    age = 24,
-    gender = "male";
-
-const sayHi = (name: String, age: Number, gender: String): String => {
-    let str: String =`Hello ${name}, you are ${age}, you are a ${gender}`; 
-    console.log(str);
-    return str
+interface Human {
+  name: string;
+  age: number;
+  gender: string;
 }
 
-sayHi(name, age, gender);
+const person = {
+  name: "nicolas",
+  gender: "male",
+  age: 22,
+};
 
-export { name }
+const sayHi = (person: Human): String => {
+  return `Hello ${person.name}, you are ${person.age}, you are a ${person.gender}`;
+};
+
+console.log(sayHi(person));
+
+export { Human };
